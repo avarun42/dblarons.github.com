@@ -8,8 +8,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Hello, I'm Aaron
-tagline: I don't know where I'm going, but I'm on my way.
+title : Intelligence Iterated
+tagline: i++
 author :
   name : Aaron Smith
   email : aaronsmith.dev@gmail.com

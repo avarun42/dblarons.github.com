@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Start Learning to Code
+title: A blog by Aaron Smith
 tagline: Supporting tagline
 ---
 {% include JB/setup %}

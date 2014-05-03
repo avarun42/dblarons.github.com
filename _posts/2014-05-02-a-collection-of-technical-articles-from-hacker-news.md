@@ -3,7 +3,9 @@ layout: post
 title: "A Collection of Technical Articles from Hacker News"
 description: "Interesting articles posted on HN from December 2013 to April 2014"
 category: guides
-tags: [hacker news, tutorials, articles, guide, xcode, vim, tools, sublime text, github, emacs, scheme, scala, regex, python, programming languages, objective-c, javascript, haskell, go language, clojure, c, bash, themes, fonts, design, sicp, recommendation engines, raspberry pi, peer to peer messaging, operating systems, machine learning, interviews, garbage collectors, distributed systems, cryptography, compilers, artificial neural networks, algorithms]
+tags: [hacker news, tutorials, articles, guide, algorithms, artificial neural networks, compilers, cryptography, distributed systems, garbage collectors, interviews, machine learning, operating systems, peer to peer messaging, raspberry pi, recommendation engines, sicp, design, fonts, themes, bash, c, clojure, go language, haskell, javascript, objective-c, programming languages, python, regex, scala, scheme, emacs, github, sublime text, tools, vim]
+
+
 ---
 {% include JB/setup %}
 
@@ -84,6 +86,8 @@ The articles are organized in the same manner as those in my Evernote folder. Th
 [Swiftly Machine Learning](http://99designs.com/tech-blog/blog/2014/04/15/Swiftly-Machine-Learning-2/)
 
 [The main trick in Machine Learning | Edinburgh Hacklab](http://edinburghhacklab.com/2013/12/the-main-trick-in-machine-learning/)
+
+[Building Machine Learning Systems with Python (book)](http://www.amazon.com/gp/aw/d/1782161406)
 
 ### Operating Systems
 
@@ -355,4 +359,3 @@ The articles are organized in the same manner as those in my Evernote folder. Th
 [Text System Defaults and Key Bindings](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/EventOverview/TextDefaultsBindings/TextDefaultsBindings.html)
 
 [Xcode Keybindings Gist](https://gist.github.com/smilingpoplar/1728384)
-
