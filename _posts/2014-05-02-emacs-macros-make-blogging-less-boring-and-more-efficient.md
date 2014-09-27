@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Emacs Macros Make Blogging Less Boring (and More Efficient)"
-description: "A summary of how I made blogging a little easier"
-category: 
-tags: [emacs, blogging]
 ---
-{% include JB/setup %}
 
 ### Copy/Paste Copy/Paste
 

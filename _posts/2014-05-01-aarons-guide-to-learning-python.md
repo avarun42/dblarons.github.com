@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "Aaron's Guide to Learning Python"
-description: "A list of resources for learning Python"
-category: guides
-tags: [python, learnpythonthehardway, codecademy, tutorials, guide]
 ---
-{% include JB/setup %}
 
 ## Python
 

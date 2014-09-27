@@ -1,13 +1,8 @@
 ---
 layout: post
 title: "A Collection of Technical Articles from Hacker News"
-description: "Interesting articles posted on HN from December 2013 to April 2014"
-category: guides
-tags: [hacker news, tutorials, articles, guide, algorithms, artificial neural networks, compilers, cryptography, distributed systems, garbage collectors, interviews, machine learning, operating systems, peer to peer messaging, raspberry pi, recommendation engines, sicp, design, fonts, themes, bash, c, clojure, go language, haskell, javascript, objective-c, programming languages, python, regex, scala, scheme, emacs, github, sublime text, tools, vim]
-
 
 ---
-{% include JB/setup %}
 
 ## Technical Articles
 

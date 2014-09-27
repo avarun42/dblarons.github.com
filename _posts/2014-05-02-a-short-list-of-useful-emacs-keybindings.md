@@ -1,11 +1,7 @@
 ---
 layout: post
 title: "A Short List of Useful Emacs Keybindings"
-description: "Useful Emacs Keybindings list"
-category: guides
-tags: [emacs, keybindings, list]
 ---
-{% include JB/setup %}
 
 ## Emacs Keybindings
 
