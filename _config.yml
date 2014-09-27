@@ -7,8 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Thoughts on Tech
-tagline:          by Aaron Smith
+title:            Aaron Smith
+tagline:          'Thoughts on tech'
+description:      'Technology musings by an over-worked (but loving it) college student.'
 url:              http://aaronhsmith.com
 paginate:         1
 baseurl:          /
