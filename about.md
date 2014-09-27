@@ -3,28 +3,10 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I am a second year undergraduate student at Vanderbilt University in Nashville, TN. When I'm not doing schoolwork, I can be found at the boxing gym, trying new restaurants, or playing music.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Before I enrolled at Vanderbilt, I attended La Costa Canyon High School about 30 minutes north of San Diego. I love burritos, sunny weather, and the beach. 
 
-There are currently two themes built on Poole:
+I love exploring programming languages and tools. Some of my current muses include Vim, Haskell, Clojure, and tmux. I'm always looking to learn about topics I haven't yet explored.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.org), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thanks for reading. If you want to get in touch with me, email me at <a href="mailto:aaronsmith.dev@gmail.com">aaronsmith.dev@gmail.com</a>.
