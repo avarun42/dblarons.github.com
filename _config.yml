@@ -7,15 +7,15 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
+title:            Thoughts on Tech
 tagline:          The Jekyll Butler
-url:              http://getpoole.com
+url:              http://aaronhsmith.com
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Aaron Smith
+  url:            https://twitter.com/dblarons
+  email:          aaronsmith.dev@gmail.com
 
 # Custom vars
 version:          1.0.0
