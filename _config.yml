@@ -11,7 +11,7 @@ title:            Thoughts on Tech
 tagline:          by Aaron Smith
 url:              http://aaronhsmith.com
 paginate:         1
-baseurl:          http://dblarons.github.io/
+baseurl:          /
 author:
   name:           Aaron Smith
   url:            https://twitter.com/dblarons
