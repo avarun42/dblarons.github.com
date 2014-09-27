@@ -8,10 +8,10 @@ relative_permalinks: true
 
 # Setup
 title:            Thoughts on Tech
-tagline:          The Jekyll Butler
+tagline:          by Aaron Smith
 url:              http://aaronhsmith.com
 paginate:         1
-baseurl:          /
+baseurl:          http://dblarons.github.io/
 author:
   name:           Aaron Smith
   url:            https://twitter.com/dblarons
