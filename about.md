@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+![Profile](/assets/profile.jpg)
+
 I am a second year undergraduate student at Vanderbilt University in Nashville, TN. When I'm not doing schoolwork, I can be found at the boxing gym, trying new restaurants, or playing music.
 
 Before I enrolled at Vanderbilt, I attended La Costa Canyon High School about 30 minutes north of San Diego. Some perks of life in San Diego include burritos, sunny weather, and the beach. 
