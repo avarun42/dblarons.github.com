@@ -15,7 +15,7 @@ Python ([learnpythonthehardway.com](http://learnpythonthehardway.com) & [codecad
 
 I recommend starting with Python. The language is easy to pick up, and introduces you to concepts that are fundamental to (almost) every programming language you will come across in the future.
 
-To start learning Python, I recommend reading Zed Shaw's book atlearnpythonthehardway.com. The web version of the book is free. I recommend doing a few exercises a day and making sure you type all the code out. The first several exercises will be ridiculously easy for you. Don't worry, they get harder. Zed Shaw, the author, is a brilliant guy who is well respected (though sometimes controversial) in the CS community.
+To start learning Python, I recommend reading Zed Shaw's book at [learnpythonthehardway.com](http://learnpythonthehardway.com). The web version of the book is free. I recommend doing a few exercises a day and making sure you type all the code out. The first several exercises will be ridiculously easy for you. Don't worry, they get harder. Zed Shaw, the author, is a brilliant guy who is well respected (though sometimes controversial) in the CS community.
 
 After you make it through a bunch of those tutorials (say, 15-20), take a look at the Python tutorials at codecademy.com. They move faster and teach less, which is why you should start with lpthw, but they explain some concepts better than Zed does. After around lesson 20 in lpthw I alternated between Codecademy and lpthw.
 
