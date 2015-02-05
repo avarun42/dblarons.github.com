@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Aaron's Guide to Learning Python"
+comments: True
 ---
 
 ## Python

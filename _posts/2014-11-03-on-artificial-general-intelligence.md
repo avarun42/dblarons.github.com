@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "On Artificial Intelligence"
+comments: True
 ---
 
 In the Garden of Eden, Adam and Eve bring upon themselves the downfall of punishment by expulsion from their home by eating the forbidden fruit in order to gain *knowledge of good and evil*. This is a wonderful allegory for the way many artificial intelligence thinkers frame the creation of Artificial general intelligence--once it is upon us, there is no turning back.

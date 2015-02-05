@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Collection of Technical Articles from Hacker News"
-
+comments: True
 ---
 
 ## Technical Articles

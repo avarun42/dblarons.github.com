@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Emacs Macros Make Blogging Less Boring (and More Efficient)"
+comments: True
 ---
 
 ### Copy/Paste Copy/Paste

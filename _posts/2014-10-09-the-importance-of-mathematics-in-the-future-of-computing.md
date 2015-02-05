@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Importance of Mathematics in the Future of Computing"
+comments: True
 ---
 
 

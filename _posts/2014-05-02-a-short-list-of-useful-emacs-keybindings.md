@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Short List of Useful Emacs Keybindings"
+comments: True
 ---
 
 ## Emacs Keybindings

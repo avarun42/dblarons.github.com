@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            Aaron Smith
-tagline:          'Thoughts on tech'
-description:      'Technology musings by an over-worked (but loving it) college student.'
+tagline:          'Thoughts on Tech'
+description:      'Opinions on machine learning, AI, and my work in technology.'
 url:              http://aaronhsmith.com
 paginate:         1
 baseurl:          /

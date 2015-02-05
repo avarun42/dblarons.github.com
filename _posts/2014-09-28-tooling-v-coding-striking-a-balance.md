@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tooling v. Coding: Striking a Balance"
+comments: True
 ---
 
 Programmers must strike a delicate balance between expertise in tooling and expertise in writing code. Having lots of one and not enough of the other can result in large drops in efficiency. 
