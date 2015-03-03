@@ -6,7 +6,7 @@ comments: True
 
 ## The Problem
 
-My current strategy for clustering in my game [attrition](http://www.aaronhsmith.com/2015/02/04/attrition-an-introduction/) considers only a few parameters: computer health (maximize), computer soldiers (maximize), player health (minimize), player soldiers (minimize), and number of rounds (minimize). By clustering the data, I hoped to pick a strategy for each round of the game that would maximize the likelihood of a computer victory.
+Our current strategy for clustering in our game [attrition](http://www.aaronhsmith.com/2015/02/04/attrition-an-introduction/) considers only a few parameters: computer health (maximize), computer soldiers (maximize), player health (minimize), player soldiers (minimize), and number of rounds (minimize). By clustering the data, I hoped to pick a strategy for each round of the game that would maximize the likelihood of a computer victory.
 
 This evening, after using Mahout's KMeansDriver to cluster this data, I fully realized what I have suspected all along -- these parameters alone do not give me a detailed enough picture of the game at any given point.
 
