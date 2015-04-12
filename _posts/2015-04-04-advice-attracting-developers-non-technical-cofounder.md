@@ -49,7 +49,7 @@ If you already have another, experienced, developer working with you, use skill 
 
 ### Solution 4: Learn to Code
 
-One of the most powerful ways to show that you are committed to a project is to try building it yourself. Check out my post about [learning to code](http://www.aaronhsmith.com/2014/05/01/aarons-guide-to-learning-python/) for how to get started. Building something on your own, even if sucks, shows potential partners that this isn't just an idea you had at a bar last Saturday. Doing so will also give you a more accurate estimate of how long the project will take. When you present to our club, show us what you made and explain what you learned; this is sure to to impress us.
+One of the most powerful ways to show that you are committed to a project is to try building it yourself. Check out my post about [learning to code](http://www.aaronhsmith.com/2014/05/01/aarons-guide-to-learning-python/) for how to get started. Building something on your own, even if it sucks, shows potential partners that this isn't just an idea you had at a bar last Saturday. Doing so will also give you a more accurate estimate of how long the project will take. When you present to our club, show us what you made and explain what you learned; this is sure to to impress us.
 
 ### Solution 5: Quality Market Research
 
@@ -59,7 +59,7 @@ Before you pitch to VandyApps (or anyone, really), you should perform quality ma
 
 ## We Can't Wait to Meet You!
 
-We at VandyApps understand that you are anxious to get started, and we want to help you as much as possible. Following the above guidelines gives your idea  much better chance of coming to fruition.
+We at VandyApps understand that you are anxious to get started, and we want to help you as much as possible. Following the above guidelines gives your idea a much better chance of coming to fruition.
 
 We're looking forward to seeing you at one of our meetings! If you have any questions, please let me know in the [comments](http://www.aaronhsmith.com/2015/04/04/advice-attracting-developers-non-technical-cofounder/), or via [email](mailto:aaronsmith.dev@gmail.com).
 
