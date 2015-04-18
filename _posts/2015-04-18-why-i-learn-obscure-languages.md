@@ -4,7 +4,7 @@ title: "Why I Waste Time Learning Obscure Programming Languages (And Why You Sho
 comments: True
 ---
 
-### The FP Cult
+### The Functional Programming Cult
 
 As a novice functional programmer and armchair advocate of functional
 programming amongst my friends, I am occasionally asked why I spend time, the
