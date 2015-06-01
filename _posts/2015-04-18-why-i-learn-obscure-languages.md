@@ -49,7 +49,7 @@ Programming, like swimming, is a 10,000 hour class of activity. The novice is
 so completely unrecognizable from the expert as to render comparison useless.
 
 Limiting oneself to programming in one or two languages, in the same family, at
-on level in the stack, is like showing up to practice each day and only
+one level in the stack, is like showing up to practice each day and only
 swimming the events you plan to compete in. Peak performance is limited by such
 a narrow approach. The expert athlete strengthens their _body_ with a wide
 range of interconnected exercises. To become an expert programmer [1], one must
