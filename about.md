@@ -5,10 +5,20 @@ title: About
 
 ![Profile](/assets/profile.jpg)
 
-I am a second year undergraduate student at Vanderbilt University in Nashville, TN. When I'm not doing schoolwork, I can be found at the boxing gym, trying new restaurants, or playing music.
+I am a junior at Vanderbilt University in Nashville, TN. When I'm not doing
+schoolwork, I can be found at the boxing gym, trying new restaurants, or
+playing music.
 
-Before I enrolled at Vanderbilt, I attended La Costa Canyon High School about 30 minutes north of San Diego. Some perks of life in San Diego include burritos, sunny weather, and the beach. 
+This summer, I am interning at Qualtrics, an online survey company. Previously,
+I have worked at the start ups Nacho Cove, Aisle Planner, and Nukona; I did
+a 9-month stint at Symantec after they acquired Nukona.
 
-I love exploring programming languages and tools. Some of my current muses include Vim, Haskell, Clojure, and Tmux. I'm always looking to learn about topics I haven't yet explored.
+The fields in computer science that interest me most are programming languages,
+specifically type systems and functional programming, and machine learning.
+I would like to work somewhere that I can apply those interests.
 
-Thanks for reading. If you want to get in touch with me, email me at <a href="mailto:aaronsmith.dev@gmail.com">aaronsmith.dev@gmail.com</a>.
+This year, I have been working on an iOS game called Sudz. It will be on the app store soon. I have worked on a few side projects recently, including [writing a shell in Haskell](https://github.com/dblarons/haskell-shell), building a [simple game with a machine learning AI enemy in Clojure](https://github.com/bad-intel/attrition), and publishing a [site map generator in Python](https://github.com/dblarons/sitemapserpent). I am currently working on a [BitTorrent client in Haskell](https://github.com/dblarons/torrskel).
+
+Thanks for reading! If you want to get in touch with me, email me at <a
+href="mailto:aaronsmith.dev@gmail.com">aaronsmith.dev@gmail.com</a>. My resume
+can be found [here](/assets/aaron_resume.pdf).
