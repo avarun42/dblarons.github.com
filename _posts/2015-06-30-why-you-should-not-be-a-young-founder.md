@@ -170,7 +170,7 @@ Young people and inexperienced founders often look for funding as soon as they
 have an idea, only refining that idea with feedback from VC's. Without a track
 record, a product, or sales, no sane investor is going to risk even a small
 investment on an unproven entrepreneur. Ideally, looking for investor funding
-shouldn't be a skill or massive time investment, it should play a small role in
+shouldn't be a skill or massive time investment – it should play a small role in
 the much larger picture of building a successful business.
 
 ---------------------
