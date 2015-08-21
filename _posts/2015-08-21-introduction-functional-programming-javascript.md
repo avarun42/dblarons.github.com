@@ -23,22 +23,24 @@ the VandyApps Advanced Programming sessions. Let's begin.
 ## Using a REPL
 
 Think back to CS 251. Did you ever wish that testing out a function or
-algorithm didn't require your code to compile cleanly? Sometimes it was
-a total pain to compile, run, and use your program, just to find out that
+algorithm didn't require your entire project to compile cleanly? Sometimes it
+was a total pain to compile, run, and use your program, only to discover that
 a function or method didn't work as you expected it to. Some of you may have
 even created a _new_ project just to test out that function in a clean
 environment that would compile cleanly.
 
-Well, fear no more. Progressive™ languages have a solution for this problem, and
-it's called the REPL. REPL is an acronym: It stands for "Read, Evaluate,
+Well, fear no more. Progressive™ languages have a solution for this problem,
+and it's called the REPL. REPL is an acronym: It stands for "Read, Evaluate,
 Print, Loop," and that's exactly what it does. It allows you to write code,
-import libraries, and more without compiling and running a full project.
+import libraries, and more without compiling and running (or interpreting) your
+whole project.
 
 If you've used the Python prompt in your terminal before, you've
-already used a REPL. Similarly if you have opened up the Chrome or Firefox
-developer tools.
+already used a REPL. Likewise if you have opened up the Chrome or Firefox
+developer tools to use the JavaScript console.
 
-Let's open up the REPL in your browser to give it a whirl.
+Let's open up the REPL in your browser to give it a whirl. In Chrome for Mac,
+the REPL can be accessed with the keyboard combination `Cmd-Shift-C`.
 
 ```javascript
 4 + 5 // => 9
@@ -49,7 +51,7 @@ console.log("Learn. Design. Develop.") // => "Learn. Design. Develop."
 
 // Hint: Use Shift-Enter to insert a newline in the Chrome REPL.
 for (var i = 0; i < 10; i++) {
-    console.log(i); // => 1 \n 2 \n ... \n 10
+    console.log(i); // => 0 \n 1 \n ... \n 9
 }
 
 ```
@@ -69,15 +71,14 @@ Let's break each of those words down.
 
 2. Weakly typed – Unlike Python and Ruby, JavaScript is weakly typed.
    Strongly typed languages will either not compile or throw errors when
-   an incorrect type is passed to a function. JavaScript, on the other hand,
-   is weakly typed, so type conversions happen implicitly. Sometimes this
-   can cause unexpected behavior.
+   an incorrect type is passed to a function. In JavaScript, type conversions
+   happen implicitly. Sometimes this can cause unexpected behavior.
 
 3. Dynamically typed – Unlike C++ and Java, when writing JavaScript you do
    not need to declare types in your code. The "var" keyword declares
    a variable and that variable can be reassigned to an object or primitive of
-   a different type without throwing an error. This will save us some typing
-   and makes it easy for us to prototype code quickly.
+   a different type without throwing an error. This will save us some keystrokes
+   and help us prototype code more quickly.
 
 ## Anonymous Functions
 
@@ -97,7 +98,7 @@ doSomething(1, 2);
 
 What if we want to write a function that doesn't exist at the top level (in
 global scope in the case of JavaScript) – i.e. a local function? We can use
-an anonymous function, also known as lambdas.
+an anonymous function, otherwise known as a lambda.
 
 ```javascript
 function doSomething(param1, param2) {
@@ -155,10 +156,10 @@ function doSomething() {
 }
 ```
 
-As you can see, our closure simplifies our anonymous function by capturing the
-environment. That way, we don't have to pass so many parameters to our
-function. For a lot of simple operations that need to be reused within one
-method, closures are the best choice.
+As you can see, the closure property simplifies our anonymous function by
+capturing its environment. That way, we don't have to pass so many parameters
+to our function. For a lot of simple operations that need to be reused within
+one method, closures are the best choice.
 
 But what if we decide that we want to use that lambda within a different
 function than the one in which it was defined? 
