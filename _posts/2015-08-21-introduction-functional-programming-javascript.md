@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Week 1: Introduction to Functional Programming in JavaScript"
-comments: True
+comments: False
 ---
 
 ## Topics
@@ -15,8 +15,10 @@ comments: True
 ## Introduction
 
 This post is the first in a 12 week series of sessions that I wrote for and
-teach at VandyApps, the programming club at Vanderbilt University. Welcome to
-the VandyApps Advanced Programming sessions. Let's begin.
+teach at VandyApps, the programming club at Vanderbilt University. The sessions
+will explore functional programming topics in JavaScript and Haskell.
+
+Welcome to the VandyApps Advanced Programming sessions. Let's begin.
 
 ------------------------------------
 
@@ -245,3 +247,7 @@ the lambda is lifted out of its environment and into the global scope.
 
 In short, lambdas, closures, and lambda lifting are all about optimizing code
 reuse.
+
+----------------------------------
+
+Questions? Comments? The Hacker News comments are [here](https://news.ycombinator.com/item?id=10099322).
