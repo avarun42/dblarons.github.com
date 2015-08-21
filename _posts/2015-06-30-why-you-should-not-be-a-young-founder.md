@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why You Shouldn't be a Young Founder"
-comments: True
+comments: False
 ---
 
 Founders are our generation's novelists. They buck the system. Strike out on
@@ -170,7 +170,7 @@ Young people and inexperienced founders often look for funding as soon as they
 have an idea, only refining that idea with feedback from VC's. Without a track
 record, a product, or sales, no sane investor is going to risk even a small
 investment on an unproven entrepreneur. Ideally, looking for investor funding
-shouldn't be a skill or massive time investment, it should play a small role in
+shouldn't be a skill or massive time investment – it should play a small role in
 the much larger picture of building a successful business.
 
 ---------------------
@@ -185,3 +185,7 @@ their (overly) supportive elders.
 If you are young, like I am, consider a longer term plan for starting
 a company; it's never too early to start saving. And if you're a little further
 on in life, maybe it's not too late to be a founder after all.
+
+------------------------------
+
+Questions? The Hacker News comments are [here](https://news.ycombinator.com/item?id=9815284).
