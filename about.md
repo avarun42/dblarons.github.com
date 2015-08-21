@@ -17,7 +17,15 @@ The fields in computer science that interest me most are programming languages,
 specifically type systems and functional programming, and machine learning.
 I would like to work somewhere that I can apply those interests.
 
-This year, I have been working on an iOS game called Sudz. It will be on the app store soon. I have worked on a few side projects recently, including [writing a shell in Haskell](https://github.com/dblarons/haskell-shell), building a [simple game with a machine learning AI enemy in Clojure](https://github.com/bad-intel/attrition), and publishing a [site map generator in Python](https://github.com/dblarons/sitemapserpent). I am currently working on a [BitTorrent client in Haskell](https://github.com/dblarons/torrskel).
+This year, I built an iOS game called Sudz, which you can find on the App Store
+[here](https://itunes.apple.com/us/app/sudz/id938194736?mt=8). I have also
+worked on a few side projects recently, including [writing a shell in
+Haskell](https://github.com/dblarons/haskell-shell), building a [simple game
+with a machine learning AI enemy in
+Clojure](https://github.com/bad-intel/attrition), and publishing a [site map
+generator in Python](https://github.com/dblarons/sitemapserpent). I am
+currently working on a [BitTorrent client in
+Haskell](https://github.com/dblarons/torrskel).
 
 Thanks for reading! If you want to get in touch with me, email me at <a
 href="mailto:aaronsmith.dev@gmail.com">aaronsmith.dev@gmail.com</a>. My resume
