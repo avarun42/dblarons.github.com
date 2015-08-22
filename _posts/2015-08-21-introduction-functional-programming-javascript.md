@@ -34,8 +34,8 @@ environment that would compile cleanly.
 Well, fear no more. Progressive™ languages have a solution for this problem,
 and it's called the REPL. REPL is an acronym: It stands for "Read, Evaluate,
 Print, Loop," and that's exactly what it does. It allows you to write code,
-import libraries, and more without compiling and running (or interpreting) your
-whole project.
+import libraries, and more without compiling and executing (or interpreting)
+your whole project.
 
 If you've used the Python prompt in your terminal before, you've
 already used a REPL. Likewise if you have opened up the Chrome or Firefox
