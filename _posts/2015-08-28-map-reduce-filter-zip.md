@@ -425,3 +425,7 @@ later use to write readable, maintainable code.
 
 "Zips! Coming to a functional language near you!"
 
+----------------------------------
+
+Questions? Comments? The Hacker News comments are
+[here](https://news.ycombinator.com/item?id=10138582).
