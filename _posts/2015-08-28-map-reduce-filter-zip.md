@@ -83,7 +83,7 @@ There are a few problems with this code:
 3. Third, the loop **modifies our original array**. Not doing so would require even
    more code.
 
-Can we do better? Once again, we can. The map operator allows us to simplify
+Can we do better? Yes! The map operator allows us to simplify
 this operation.
 
 ```javascript
