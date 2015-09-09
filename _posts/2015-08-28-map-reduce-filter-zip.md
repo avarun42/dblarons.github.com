@@ -24,7 +24,7 @@ continuity and want to start from the beginning, the first post can be found
 
 This week, we will cover some of the seminal functions in functional
 programming: Map, reduce, filter, and zip. These functions will largely
-replace our need for loops when writing functional code.
+replace our need for-loops when writing functional code.
 
 As a running example throughout this session, we will consider a web
 application that tracks users, their relationship statuses, and their incomes.
@@ -33,9 +33,10 @@ application that tracks users, their relationship statuses, and their incomes.
 
 ## Map
 
-I just queried my database to find users who are about to get married. How
-do I update every user in this array so that their marriage status
-is `true`?
+Imagine that in our example application, we query our database to find users
+who are about to get married. The response to our query is a list of user
+objects, each of which contains the username and married status of a user. How
+do we update every user in this array so that their marriage status is `true`?
 
 ```javascript
 var users = [
@@ -58,8 +59,9 @@ var users = [
 ]
 ```
 
-How would we solve this problem using our current knowledge? Let's try
-a for-loop:
+Before attempting to solve this problem functionally, let's derive a solution
+using our current knowledge. In an average CS class, how would this problem be
+solved?  The most natural solution is a for-loop.
 
 ```javascript
 function updateUsers(users) {
@@ -72,23 +74,28 @@ function updateUsers(users) {
 There are a few problems with this code: 
 
 1. It's **not readable**. Even though there's only one for-loop, only
-   a programmer would understand this "jargon." Even experienced programmers
-   can find deciphering a for-loop, especially when nested, to be tricky.
+   a programmer would understand this "jargon." Deciphering for-loops,
+   especially when nested, can be tricky even for experienced programmers.
    
-2. Second, adding more loops would cause our code to use **more indentation
+2. Adding more loops would cause our code to use **more indentation
    levels**. While largely a syntactic detail, it can be a nuisance to read
    heavily indented code, and we are in the business of writing code not for
    the computer, but for the reader.
 
-3. Third, the loop **modifies our original array**. Not doing so would require even
+3. The loop **modifies our original array**. Not doing so would require even
    more code.
+
+While points 1 and 2 can't be solved easily, we can eliminate point three by
+creating an auxilary array. However, that introduces more complexity to our
+solution.
 
 Can we do better? Yes! The map operator allows us to simplify
 this operation.
 
 ```javascript
 function updateUsers(users) {
-    // This is read as: "For each user, set married to true."
+    // This is read as: "For each user in a new array, let 
+    // married be true."
     users.map(function(user) {
         user.married = true;
         return user;
@@ -99,7 +106,7 @@ function updateUsers(users) {
 In the above code, the map operation applies the anonymous function passed
 as its first argument to every element of the users array. The map function
 then returns a new array with the resulting set of data; the original `users`
-array is unmodified.
+array is left unmodified.
 
 What if we wanted to build a new array consisting of only the newlyweds
 names?
@@ -159,8 +166,8 @@ function filterForUnmarried(users) {
 }
 ```
 
-This for-loop isn't very readable. If another developer reads this later,
-they will have to do quite a bit of thinking to discover your original intent.
+This for-loop isn't very readable. If another developer modifies our code, they
+will have to do quite a bit of thinking to discover your original intent.
 
 Can we do better? Of course we can! Let's use a filter.
 
@@ -248,8 +255,8 @@ function sumIncome(users) {
 }
 ```
 
-Reduce tends to more "complicated" to newcomers than either map or filter, but
-it's surprising how often it gets used. At least in this example, it may not be
+Reduce tends to be more confusing to newcomers than map and filter, but it's
+surprising how often it gets used. At least in this example, it may not be
 obvious where the improvement comes from. But when we start combining higher
 level functions to transform our data, the utility will be more obvious.
 
@@ -310,8 +317,8 @@ function sumMarriedIncome(users) {
 }
 ```
 
-How can we improve this? How about `filtering` for married individuals, then
-`reducing` their income? We can reuse our isMarried function from before.
+How can we improve this code? We can `filter` for married individuals, then
+`reduce` their income; our isMarried function from above can be reused.
 
 ```javascript
 function sumMarriedIncome(users) {
@@ -340,8 +347,8 @@ function sumMarriedIncome(users) {
 This function reads almost like English: "Filter for users that are married
 and then sum their income."
 
-Instead of a bunch of [, +, and = signs, we now have a readable piece of
-code. We don't even need comments because this code is 100% self
+Instead of a bunch of `[`, `+`, and `=` symbols, we now have a readable piece
+of code. We don't even need comments because this code is 100% self
 documenting.
 
 ## Zip
@@ -357,7 +364,7 @@ var owners = ['susyqueue', 'annboolean', 'johnstack', 'daveheap'];
 var pets = ['sam', 'scout', 'old yeller', 'buddy'];
 ```
 
-Let's try this with a for loop.
+Let's try this with a for-loop.
 
 ```javascript
 function pairDogs(owners, pets) {
@@ -379,7 +386,7 @@ function pairDogs(owners, pets) {
 }
 ```
 
-Okay, so part of our function is functional, but we still have to pair the
+Part of our function is functional, but we still have to pair the
 dogs in the first place. If we wanted to pair cats later on, we would have
 to write another pairing function. I'm too lazy to do that!
 
@@ -417,11 +424,12 @@ function pairDogs(owners, pets) {
 }
 ```
 
-Many people might point out that, yes, our `zip` function still uses for loops.
-We probably could have written it so that we didn't need the for loop, but
-I left it there to make a point: Sometimes it is helpful for us to isolate
-ugly, but necessary, boilerplate code in a higher level function that we can
-later use to write readable, maintainable code.
+You may have noticed that our `zip` function still uses for-loops.  We probably
+could have written it so that we didn't need the for-loop, but I left it there
+to make a point: Sometimes it is helpful for us to isolate ugly, but necessary,
+boilerplate code in a higher level function that we can later use to write
+readable, maintainable code. We will explore this idea further when we learn
+about monads.
 
 "Zips! Coming to a functional language near you!"
 
