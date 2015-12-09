@@ -29,4 +29,4 @@ Haskell](https://github.com/dblarons/torrskel).
 
 Thanks for reading! If you want to get in touch with me, email me at <a
 href="mailto:aaronsmith.dev@gmail.com">aaronsmith.dev@gmail.com</a>. My resume
-can be found [here](/assets/aaron_resume.pdf).
+can be found [here](/assets/aaron-smith-resume.pdf).
