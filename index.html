@@ -1,36 +1,69 @@
----
-layout: default
----
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Aaron Smith</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="content-container">
+        <h1 class="title">
+          Aaron Smith
+        </h1>
+        <div class="content">
+          I am a programmer based in Manhattan. If you would like to get in touch,
+          please email me at 
+	  <a class="link" href="mailto:aaronsmith.dev@gmail.com" target="_blank">aaronsmith.dev@gmail.com</a>.
+        </div>
+        <div class="links-container">
+	  <div>
+            <h2 class="title">CV</h2>
+            <div class="links-content content">
+              <a class="link" href="/public/aaron-smith-resume.pdf" target="_blank">Resume</a>
+            </div>
+          </div>
+	  <div>
+            <h2 class="title">Open Source</h2>
+            <div class="links-content content">
+              <a class="link" href="https://github.com/cadre/tcomb-builder" target="_blank">tcomb-builder</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="https://pypi.python.org/pypi/sitemapserpent/0.1" target="_blank">sitemapserpent</a>
+            </div>
+          </div>
+	  <div>
+            <h2 class="title">Employers</h2>
+            <div class="links-content content">
+              <span class="arrow arrow-mobile">&#8594;</span>
+              <a class="link arrow" href="https://cadre.com" target="_blank">Cadre</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="https://www.ampproject.org/" target="_blank">Google</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="https://www.qualtrics.com/" target="_blank">Qualtrics</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="http://nachocove.com/" target="_blank">Nacho Cove</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="https://www.aisleplanner.com/" target="_blank">Aisle Planner</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="https://www.symantec.com/" target="_blank">Symantec</a>
+            </div>
+            <div class="links-content content">
+              <a class="link" href="http://nukona.com" target="_blank">Nukona</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
