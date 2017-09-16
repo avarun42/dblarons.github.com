@@ -94,6 +94,10 @@ h2.title {
   display: inline-block;
 }
 
+.link:hover {
+  color: #d3d3d3;
+}
+
 .links-container {
   display: flex;
   justify-content: space-between;
