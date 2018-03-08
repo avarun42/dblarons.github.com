@@ -33,7 +33,7 @@ body {
   height: 100%;
   width: 800px;
   margin: 0 60px;
-} 
+}
 
 @media only screen and (max-width: 550px) {
   .content-container {
@@ -83,8 +83,8 @@ h2.title {
 
 @media only screen and (max-width: 550px) {
   .content {
-   font-size: 15px;
-   text-align: center;
+     font-size: 15px;
+     text-align: center;
   }
 }
 
@@ -92,6 +92,10 @@ h2.title {
   color: #909090;
   text-decoration: none;
   display: inline-block;
+}
+
+p.link {
+  margin: 0px;
 }
 
 .link:hover {
